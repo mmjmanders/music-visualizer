@@ -20,13 +20,13 @@ export default defineConfig({
         display: 'standalone',
         icons: [
           {
-            src: '/web-app-manifest-192x192.png',
+            src: 'web-app-manifest-192x192.png',
             type: 'image/png',
             sizes: '192x192',
             purpose: ['any'],
           },
           {
-            src: '/web-app-manifest-512x512.png',
+            src: 'web-app-manifest-512x512.png',
             type: 'image/png',
             sizes: '512x512',
             purpose: ['any'],
