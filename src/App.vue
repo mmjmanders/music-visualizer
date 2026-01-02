@@ -17,7 +17,7 @@ import { routes } from '@/router'
       >
     </nav>
   </header>
-  <main class="m-4">
+  <main class="m-4 text-neutral-900">
     <RouterView />
   </main>
   <VueQueryDevtools />
