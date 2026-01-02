@@ -17,6 +17,8 @@ jobs:
           cache-dependency-path: pnpm-lock.yaml
       - run: pnpm i
       - run: pnpm build --base /${{ github.event.repository.name }}/
+        env:
+          VITE_LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist/
