@@ -17,6 +17,7 @@ export default defineConfig({
       strategies: 'generateSW',
       manifest: {
         name: 'Music Visualizer',
+        short_name: 'Music Visualizer',
         display: 'standalone',
         icons: [
           {
