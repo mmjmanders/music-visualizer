@@ -13,4 +13,4 @@ jobs:
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
       - run: pnpm i
-      - run: npx eslint .
+      - run: pnpm exec eslint .
